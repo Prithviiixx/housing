@@ -19,6 +19,7 @@ def database_config():
                 (id INTEGER PRIMARY KEY AUTOINCREMENT, property_name TEXT, property_type TEXT, pincode TEXT, city TEXT, category TEXT, description TEXT, price REAL, image TEXT)''')
     conn.commit()
 
+database_config()
     
 @app.route('/', methods=['GET','POST'])
 def hello_world():
