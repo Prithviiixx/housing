@@ -57,7 +57,7 @@ const HeroSection = () => {
         <p>
           {quote && (
             <blockquote>
-              "{quote}" - {author}
+              &ldquo;{quote}&rdquo; - {author}
             </blockquote>
           )}
         </p>
@@ -164,8 +164,8 @@ const WhyChooseUs = () => {
             <div className="p-6">
               <h3 className="text-2xl font-bold mb-2">Customer Service</h3>
               <p className="text-gray-600 mb-4">
-                We prioritize our clients' needs and offer exceptional customer
-                service throughout the entire process.
+                We prioritize our client&apos;s needs and offer exceptional
+                customer service throughout the entire process.
               </p>
             </div>
           </div>
@@ -179,7 +179,7 @@ const WhyChooseUs = () => {
               <h3 className="text-2xl font-bold mb-2">Wide Selection</h3>
               <p className="text-gray-600 mb-4">
                 Our extensive database of residential properties ensures that
-                you'll find the perfect home to suit your needs.
+                you&apos;ll find the perfect home to suit your needs.
               </p>
             </div>
           </div>

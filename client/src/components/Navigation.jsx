@@ -46,7 +46,7 @@ const Navbar = () => {
                                 </Link>
                                 <Link
                                     href="/mutualfunds"
-                                    className={`text-white hover:bg-orange-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium ${pathname === '/addproperty' ? 'bg-orange-500' : ''
+                                    className={`text-white hover:bg-orange-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium ${pathname === '/mutualfunds' ? 'bg-orange-500' : ''
                                         }`}
                                 >
                                     Mutual Funds
@@ -141,6 +141,15 @@ const Navbar = () => {
                             >
                                 Add Property
                             </Link>
+
+                            <Link
+                                href="/mutualfunds"
+                                className={`text-white hover:bg-orange-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium ${pathname === '/mutualfunds' ? 'bg-orange-500' : ''
+                                    }`}
+                            >
+                                Mutual Funds
+                            </Link>
+
                             <Link
                                 href="/contact"
                                 className={`text-white hover:bg-orange-500 hover:text-white block px-3 py-2 rounded-md text-base font-medium ${pathname === '/contact' ? 'bg-orange-500' : ''
