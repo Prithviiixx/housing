@@ -1,4 +1,3 @@
-// app/page.js
 "use client"
 
 import React, { useState, useEffect } from 'react';
@@ -6,7 +5,6 @@ import React, { useState, useEffect } from 'react';
 const MutualFundTable = () => {
     const [funds, setFunds] = useState([]);
     const [selectedFund, setSelectedFund] = useState(null);
-    const [fundDetails, setFundDetails] = useState(null);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
     const pageSize = 10;
@@ -31,7 +29,6 @@ const MutualFundTable = () => {
             const response = await fetch(`https://api.mfapi.in/mf/${schemeCode}`);
             const data = await response.json();
             setSelectedFund(data.meta);
-            setFundDetails(data.data);
         } catch (error) {
             console.error('Error fetching fund details:', error);
         }
