@@ -13,8 +13,8 @@ def lambda_handler(event, context):
     
     json_data = json.loads(json_data)
 
-    sender_email = "adwaitswim@gmail.com"
-    password = "uulg vqmf csps xsrf"
+    sender_email = "@gmail.com"
+    password = ""
     
     recipient_email = json_data.get('emailid')
     
