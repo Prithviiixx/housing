@@ -1,1 +1,2 @@
-export const API_URL = "http://34.245.237.198:8000";
+export const API_URL =
+  "http://prithvi-backend-alb-1367062280.eu-west-1.elb.amazonaws.com";
